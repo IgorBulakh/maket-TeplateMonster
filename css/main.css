@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* price-body */
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  box-shadow: 0 25px 90px rgba(50, 33, 83, 0.1);
+
+  margin: 10%;
+}
+.price-body {
+  display: flex;
+  list-style: none;
+  padding: 3% 2%;
+  flex-basis: 75%;
+}
+.price-body li {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 4%;
+}
+.price-total {
+  flex-basis: 25%;
+  background-color: #00f2a9;
+  padding: 2% 4%;
+}
+.heding-1 {
+  font-size: 60px;
+}
+
+.heding-title {
+  color: #16d69c;
+  font-size: 40px;
+}
